@@ -1,7 +1,7 @@
-// alert("Hello World");  
-// // prompt("Qual é o seu nome?");
-// // confirm("Você deseja sair?");
-// console.log("Aviso!")
+// alert("Hello World");        - pop1 mensagem
+// // prompt("Qual é o seu nome?");    - pop2 espaço para preencher
+// // confirm("Você deseja sair?");    - pop3 mensagem
+// console.log("Aviso!") 
 // // alert  - tipo um alerta , pop-up 
 // // console.log - para aparecer no console
 
