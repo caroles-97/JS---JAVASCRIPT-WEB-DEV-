@@ -46,28 +46,28 @@
 // ENTRADA
 let n2 = parseFloat (prompt ("Digite outro número: "));
 let n1 = parseFloat (prompt ("Digite um número: "));
-let operacao = prompt ("QUal operação você quer fazer? (+,-,/,*)");
+let operacao = prompt ("Qual operação você quer fazer? (+,-,/,*)");
+
+let total;
+// Escopo global  todo mundo consegue acessar ele 
 
 
-VALIDAÇÃO
+// VALIDAÇÃO
 
 if (n1 === null || n2 === null || operacao === null){
     alert (`Não foi possível efetuar a operação.`)
 }
 
 // Se n1 for vazio etc:
-if (n1 === "" || n2 === "" || operacao === """){
+if (n1 === "" || n2 === "" || operacao === ""){
     alert (`Preencha corretamente.`)
 }
 
-// isNaN tenta converter para nº e informa caso não conseguiu
+// isNaN tenta converter para nº e informa caso não conseguiu - NÃO É UM Nº
 if(isNaN(n1) || isNaN(n2)) {
-    alert (`Digite um número`)
+    alert (`Digite um número.`);
 }
 
-
-let total;
-// Escopo global  todo mundo consegue acessar ele 
 
 // PROCESSAMENTO
 
