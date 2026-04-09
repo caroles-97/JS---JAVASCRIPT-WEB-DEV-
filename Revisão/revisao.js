@@ -49,7 +49,8 @@ let n1 = parseFloat (prompt ("Digite um número: "));
 let operacao = prompt ("Qual operação você quer fazer? (+,-,/,*)");
 
 let total;
-// Escopo global  todo mundo consegue acessar ele 
+// Escopo global  todo mundo consegue acessar ele. 
+// No JS a variável fica presa no IF/ELSE IF, por isso, é necessário CRIAR ESSA VARIÁVEL AQUI COMO PONTE da variável do IF/ELSE IF 
 
 
 // VALIDAÇÃO
